@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html>
+
+<script runat="server">
+
+   
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 90%;
+            border-collapse: collapse;
+            background-color: #FFFFFF;
+        }
+        .auto-style2 {
+            width: 999px;
+        }
+    </style>
+	<link rel="stylesheet" href="CSS3 Menu_files/css3menu1/style.css" type="text/css" /><style type="text/css">._css3m{display:none}</style>
+
+</head>
+<body style="background-color:#006699; margin-top:0px;margin-left:0px; margin-right:0px ">
+    <form id="form1" runat="server">
+    <div id="header" style="width:100%; height:120px; background-color:#d9d2d2; text-align: center;">
+
+
+
+        <asp:Image ID="Image1" runat="server" Height="114px" ImageUrl="~/images/logo.png" Width="780px" />
+
+
+
+    </div>
+
+    <table align="centre" class="auto-style1">
+        <tr>
+            <td class="auto-style2"  valign="top">
+                <asp:ContentPlaceHolder  ID="ContentPlaceHolder1" runat="server">
+                    <p>
+                        &nbsp;</p>
+                </asp:ContentPlaceHolder>
+            </td>
+            <td style="text-align: right" >
+                <ul id="css3menu1" class="topmenu">
+	<li class="switch"><label onclick="" for="css3menu-switcher"></label></li>
+	<li class="topfirst"><a href="#" style="width:46px;">إضافة ملف</a></li>
+	<li class="topmenu"><a href="#" style="width:46px;"><span>ملفاتي</span></a>
+	<ul>
+		<li class="subfirst"><a href="#">Item 1 0</a></li>
+		<li><a href="#">Item 1 1</a></li>
+		<li><a href="#">Item 1 2</a></li>
+	</ul></li>
+	<li class="topmenu"><a href="#" style="width:46px;">بحث</a></li>
+	<li class="topmenu"><a href="#" style="width:46px;">اضافة مقرر</a></li>
+	<li class="toplast"><a href="#" style="width:46px;">خروج</a></li>
+</ul>&nbsp;</td>
+        </tr>
+    </table>
+
+    </form>
+    <p class="auto-style4">
+
+        كافة الحقوق محفوضة لادارة الموقع
+    </p>
+</body>
+</html>
